@@ -35,8 +35,8 @@ function print_header($active = 'home') {
           <a href="calendar_page.php">Events</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li<?php if($active == 'events1') { ?> class="active"<?php } ?>><a href="upcoming_events.php">Upcoming Events</a></li>
-            <li<?php if($active == 'events2') { ?> class="active"<?php } ?>><a href="calendar_page.php">Event Calendar</a></li>
+            <li<?php if($active == 'upcoming_events') { ?> class="active"<?php } ?>><a href="upcoming_events.php">Upcoming Events</a></li>
+            <li<?php if($active == 'calendar_page') { ?> class="active"<?php } ?>><a href="calendar_page.php">Event Calendar</a></li>
             <li<?php if($active == 'events3') { ?> class="active"<?php } ?>><a href="#">Sub Nav 3</a></li>
             <li<?php if($active == 'events4') { ?> class="active"<?php } ?>><a href="#">Sub Nav 4</a></li>
             <li<?php if($active == 'events5') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 5</a></li>
@@ -58,6 +58,7 @@ function print_header($active = 'home') {
             <li<?php if($active == 'resources2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
           </ul>
         </li>
+        <li<?php if($active == 'contact_us') { ?> class="active"<?php } ?>><a href="contact_us.php">Contact Us</a></li>
       </ul>
       
 		</div>

@@ -10,19 +10,31 @@ include('header.php');
 //   events*
 //   news*
 //   resources*
-print_header('calendar_page');
+print_header('contact_us');
 ?>
 
 	<div class="row">
 		<div class="eight columns">
-			<h3>Calendar Page</h3>
-
+			<h3>Contact Us</h3>
+			
 			<!-- Grid Example -->
 			<div class="row">
 				<div class="twelve columns">
-					<div class="panel">
-						<img src="images/fullcalendar.png">
-					</div>
+				<p> If you're trying to contact us, you can reach us at (555)555-5555 during normal business hours.  If you'd like to have us contact you, please fill out the form below and a representative will call or email you.
+					<!-- Row Layout for forms -->
+					<form>
+					  <label>Contact Information:</label>
+					  <input type="text" placeholder="Name" />
+					  <div class="row">
+					    <div class="six columns">
+					      <input type="text" placeholder="Email" />
+					    </div>
+					    <div class="six columns">
+					      <input type="text" placeholder="Phone Number" />
+					    </div>
+					  </div>
+					  <textarea placeholder="Message"></textarea>
+					</form>
 				</div>
 			</div>
 		</div>

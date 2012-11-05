@@ -10,7 +10,7 @@ include('header.php');
 //   events*
 //   news*
 //   resources*
-print_header('upcoming events');
+print_header('upcoming_events');
 ?>
 
 	<div class="row">
