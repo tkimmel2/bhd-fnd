@@ -30,12 +30,12 @@ function print_header($active = 'home') {
 
       <!-- main navigation -->
       <ul class="nav-bar">
-        <li<?php if($active == 'home') { ?> class="active"<?php } ?>><a href="/">Home</a></li>
+        <li<?php if($active == 'home') { ?> class="active"<?php } ?>><a href="index.php">Home</a></li>
         <li class="<?php if(stripos($active, 'events') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="#">Events</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li<?php if($active == 'events1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
+            <li<?php if($active == 'events1') { ?> class="active"<?php } ?>><a href="upcoming_events.php">Upcoming Events</a></li>
             <li<?php if($active == 'events2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
             <li<?php if($active == 'events3') { ?> class="active"<?php } ?>><a href="#">Sub Nav 3</a></li>
             <li<?php if($active == 'events4') { ?> class="active"<?php } ?>><a href="#">Sub Nav 4</a></li>
