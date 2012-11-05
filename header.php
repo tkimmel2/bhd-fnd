@@ -43,7 +43,7 @@ function print_header($active = 'home') {
           </ul>
         </li>
         <li class="<?php if(stripos($active, 'news') !== FALSE) { ?>active <?php } ?>has-flyout">
-          <a href="#">News</a>
+          <a href="news.php">News</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
             <li<?php if($active == 'news1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
