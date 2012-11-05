@@ -20,7 +20,7 @@ print_header('contact_us');
 			<!-- Grid Example -->
 			<div class="row">
 				<div class="twelve columns">
-				<p> If you're trying to contact us, you can reach us at (555)555-5555 during normal business hours.  If you'd like to have us contact you, please fill out the form below and a representative will call or email you.
+				<p> If you're trying to contact us, you can reach us at (555) 555-5555 during normal business hours.  If you'd like to have us contact you, please fill out the form below and a representative will call or email you.
 					<!-- Row Layout for forms -->
 					<form>
 					  <label>Contact Information:</label>
