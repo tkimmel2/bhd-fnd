@@ -7,7 +7,9 @@ include('header.php');
 //   news
 //   resources
 //  2nd Level:
-//   (none yet)
+//   events*
+//   news*
+//   resources*
 print_header('home');
 ?>
 

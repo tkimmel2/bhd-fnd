@@ -31,31 +31,31 @@ function print_header($active = 'home') {
       <!-- main navigation -->
       <ul class="nav-bar">
         <li<?php if($active == 'home') { ?> class="active"<?php } ?>><a href="/">Home</a></li>
-        <li class="<?php if($active == 'events') { ?>active <?php } ?>has-flyout">
+        <li class="<?php if(stripos($active, 'events') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="#">Events</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li><a href="#">Sub Nav Item 1</a></li>
-            <li><a href="#">Sub Nav Item 2</a></li>
-            <li><a href="#">Sub Nav 3</a></li>
-            <li><a href="#">Sub Nav 4</a></li>
-            <li><a href="#">Sub Nav Item 5</a></li>
+            <li<?php if($active == 'events1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
+            <li<?php if($active == 'events2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
+            <li<?php if($active == 'events3') { ?> class="active"<?php } ?>><a href="#">Sub Nav 3</a></li>
+            <li<?php if($active == 'events4') { ?> class="active"<?php } ?>><a href="#">Sub Nav 4</a></li>
+            <li<?php if($active == 'events5') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 5</a></li>
           </ul>
         </li>
-        <li class="<?php if($active == 'news') { ?>active <?php } ?>has-flyout">
+        <li class="<?php if(stripos($active, 'news') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="#">News</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li><a href="#">Sub Nav Item 1</a></li>
-            <li><a href="#">Sub Nav Item 2</a></li>
+            <li<?php if($active == 'news1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
+            <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
           </ul>
         </li>
-        <li class="<?php if($active == 'resources') { ?>active <?php } ?>has-flyout">
+        <li class="<?php if(stripos($active, 'resources') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="#">Resources</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li><a href="#">Sub Nav Item 1</a></li>
-            <li><a href="#">Sub Nav Item 2</a></li>
+            <li<?php if($active == 'resources1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
+            <li<?php if($active == 'resources2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
           </ul>
         </li>
       </ul>
