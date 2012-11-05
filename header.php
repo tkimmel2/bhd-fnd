@@ -1,3 +1,6 @@
+<?php
+function print_header($active = 'home') {
+?>
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -27,9 +30,9 @@
 
       <!-- main navigation -->
       <ul class="nav-bar">
-        <li class="active"><a href="#">Nav Item 1</a></li>
-        <li class="has-flyout">
-          <a href="#">Nav Item 2</a>
+        <li<?php if($active == 'home') { ?> class="active"<?php } ?>><a href="/">Home</a></li>
+        <li class="<?php if($active == 'events') { ?>active <?php } ?>has-flyout">
+          <a href="#">Events</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
             <li><a href="#">Sub Nav Item 1</a></li>
@@ -39,8 +42,16 @@
             <li><a href="#">Sub Nav Item 5</a></li>
           </ul>
         </li>
-        <li class="has-flyout">
-          <a href="#">Nav Item 3</a>
+        <li class="<?php if($active == 'news') { ?>active <?php } ?>has-flyout">
+          <a href="#">News</a>
+          <a href="#" class="flyout-toggle"><span> </span></a>
+          <ul class="flyout">
+            <li><a href="#">Sub Nav Item 1</a></li>
+            <li><a href="#">Sub Nav Item 2</a></li>
+          </ul>
+        </li>
+        <li class="<?php if($active == 'resources') { ?>active <?php } ?>has-flyout">
+          <a href="#">Resources</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
             <li><a href="#">Sub Nav Item 1</a></li>
@@ -51,4 +62,6 @@
       
 		</div>
 	</div>
-
+<?php
+}
+?>

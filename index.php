@@ -1,4 +1,15 @@
-<?php include('header.php'); ?>
+<?php
+include('header.php');
+// valid arguments: 
+//  1st Level:
+//   home (default)
+//   events
+//   news
+//   resources
+//  2nd Level:
+//   (none yet)
+print_header('home');
+?>
 
 	<div class="row">
 		<div class="eight columns">
