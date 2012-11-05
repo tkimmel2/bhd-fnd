@@ -1,3 +1,5 @@
+<br/><br/><br/><div align="center"><p>Your Company Information | (555)555-5555 | PO Box 1234, Nowhere CO, 81111 | inquiries@mycompany.com </p> </div>
+
 <!-- Included JS Files (Uncompressed) -->
 	<script src="javascripts/foundation/jquery.js"></script>
 	
