@@ -19,6 +19,7 @@ print_header('home');
 			<div class="row">
 				<div class="twelve columns">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique convallis lorem, et cursus orci convallis quis. Aenean volutpat mi eget quam tristique quis malesuada lectus interdum. Donec volutpat ornare elementum. Proin lorem ligula, congue ac pharetra in, rutrum ac magna. Nunc vulputate vulputate justo et eleifend. In hac habitasse platea dictumst. Integer semper ultricies nulla at tincidunt. Fusce vitae consectetur sapien. Suspendisse vel neque neque, sit amet tempus velit. Phasellus at erat ipsum. Sed tincidunt aliquam sagittis. Integer augue risus, semper laoreet tincidunt nec, dignissim vel sapien. Nunc eget libero tellus. Integer feugiat ante eros, et elementum ante. Proin vitae enim quam, ac consequat justo. Morbi malesuada aliquet ipsum sit amet posuere.</p>
+					<a href="about.php" style="display: block; text-align: right;">Learn more ➤</a>
 				</div>
 			</div>
 			<h3>Recent News:</h3>
@@ -57,8 +58,8 @@ print_header('home');
 
 		<div class="four columns">
 			<!-- Right sidebar -->
-			<h4>Upcoming Events</h4>
 			<div class="panel">
+				<h4>Upcoming Events</h4>
 				<dl>
 					<dt><strong>Nov 5, 2012</strong> - <a href="events-one.php">Event Name goes here</a></dt>
 	       	<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</dd>

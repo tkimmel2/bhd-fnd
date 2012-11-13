@@ -42,14 +42,15 @@ print_header('contact_us');
 		<div class="four columns">
 			<h4>Sign up for our Newsletter</h4>
 			<input type="text" placeholder="Your Email" />
-			<h4>Become a Member</h4>
-				<div class="panel">
-					<p>Interested in becoming a member?  Click here to find out about our organization's membership program</p>
-				</div>			
-			<h4>Featured Member</h4>
-				<div class="panel">
-					<p>Showcase a 'featured member' of your organization here...  or something else.</p>
-				</div>	
+			<div class="panel">
+				<h4>Become a Member</h4>
+				<p>Interested in becoming a member?  Click here to find out about our organization's membership program</p>
+			</div>			
+
+			<div class="panel">
+				<h4>Featured Member</h4>
+				<p>Showcase a 'featured member' of your organization here...  or something else.</p>
+			</div>	
 		</div>
 	</div>
 
