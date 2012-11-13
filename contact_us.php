@@ -40,16 +40,16 @@ print_header('contact_us');
 		</div>
 
 		<div class="four columns">
-			<h4>Some Sidebar Content</h4>
-			<p>Here we have some sidebar content: site navigation, calendars, or something else</p>
-
-			<h4>More Sidebar Content</h4>
-			<p>Our Partners (or other links?)</p>
-			<ul class="disc">
-				<li><a href="http://google.com">Google is Great!</a><br />Search the whole internets.</li>
-				<li><a href="http://espn.com">ESPN is on Drupal</a><br />Did you know that some of the largest sites on the net run Drupal?</li>
-				<li><a href="http://drupal.org">Drupal Community</a><br />Want to know more about Drupal?  Check out the Drupal.org homepage.</li>
-			</ul>
+			<h4>Sign up for our Newsletter</h4>
+			<input type="text" placeholder="Your Email" />
+			<h4>Become a Member</h4>
+				<div class="panel">
+					<p>Interested in becoming a member?  Click here to find out about our organization's membership program</p>
+				</div>			
+			<h4>Featured Member</h4>
+				<div class="panel">
+					<p>Showcase a 'featured member' of your organization here...  or something else.</p>
+				</div>	
 		</div>
 	</div>
 
