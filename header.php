@@ -17,6 +17,7 @@ function print_header($active = 'home') {
 
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/bhd.css">
 
 	<script src="javascripts/foundation/modernizr.foundation.js"></script>
 
@@ -60,7 +61,7 @@ function print_header($active = 'home') {
         </li>
         <li<?php if($active == 'contact_us') { ?> class="active"<?php } ?>><a href="contact_us.php">Contact Us</a></li>
       </ul>
-      
+
 		</div>
 	</div>
 <?php
