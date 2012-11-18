@@ -59,6 +59,7 @@ function print_header($active = 'home') {
             <li<?php if($active == 'resources2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
           </ul>
         </li>
+        <li<?php if($active == 'members') { ?> class="active"<?php } ?>><a href="members.php">Members</a></li>
         <li<?php if($active == 'contact_us') { ?> class="active"<?php } ?>><a href="contact_us.php">Contact Us</a></li>
       </ul>
 
