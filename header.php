@@ -60,7 +60,14 @@ function print_header($active = 'home') {
           </ul>
         </li>
         <li<?php if($active == 'jobs') { ?> class="active"<?php } ?>><a href="jobs.php">Jobs</a></li>
-        <li<?php if($active == 'members') { ?> class="active"<?php } ?>><a href="members.php">Members</a></li>
+        <li class="<?php if(stripos($active, 'member') !== FALSE) { ?>active <?php } ?>has-flyout">
+          <a href="members.php">Members</a>
+          <a href="#" class="flyout-toggle"><span> </span></a>
+          <ul class="flyout">
+          	<li<?php if($active == 'member') { ?> class="active"<?php } ?>><a href="members.php">View Member Organizations</a></li>
+            <li<?php if($active == 'member') { ?> class="active"<?php } ?>><a href="member_signup.php">Become a Member</a></li>
+          </ul>
+        </li>
         <li<?php if($active == 'contact_us') { ?> class="active"<?php } ?>><a href="contact_us.php">Contact Us</a></li>
       </ul>
 
