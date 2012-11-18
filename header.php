@@ -51,14 +51,7 @@ function print_header($active = 'home') {
             <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
           </ul>
         </li>
-        <li class="<?php if(stripos($active, 'resources') !== FALSE) { ?>active <?php } ?>has-flyout">
-          <a href="#">Resources</a>
-          <a href="#" class="flyout-toggle"><span> </span></a>
-          <ul class="flyout">
-            <li<?php if($active == 'resources1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
-            <li<?php if($active == 'resources2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
-          </ul>
-        </li>
+        <li<?php if($active == 'resources') { ?> class="active"<?php } ?>><a href="resources.php">Resources</a></li>
         <li<?php if($active == 'jobs') { ?> class="active"<?php } ?>><a href="jobs.php">Jobs</a></li>
         <li class="<?php if(stripos($active, 'member') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="members.php">Members</a>
