@@ -38,17 +38,14 @@ function print_header($active = 'home') {
           <ul class="flyout">
             <li<?php if($active == 'upcoming_events') { ?> class="active"<?php } ?>><a href="upcoming_events.php">Upcoming Events</a></li>
             <li<?php if($active == 'events_calendar') { ?> class="active"<?php } ?>><a href="calendar_page.php">Event Calendar</a></li>
-            <li<?php if($active == 'events3') { ?> class="active"<?php } ?>><a href="#">Sub Nav 3</a></li>
-            <li<?php if($active == 'events4') { ?> class="active"<?php } ?>><a href="#">Sub Nav 4</a></li>
-            <li<?php if($active == 'events5') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 5</a></li>
           </ul>
         </li>
         <li class="<?php if(stripos($active, 'news') !== FALSE) { ?>active <?php } ?>has-flyout">
           <a href="news.php">News</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li<?php if($active == 'news1') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 1</a></li>
-            <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Sub Nav Item 2</a></li>
+            <li<?php if($active == 'news1') { ?> class="active"<?php } ?>><a href="#">Featured News 1</a></li>
+            <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Featured News 2</a></li>
           </ul>
         </li>
         <li<?php if($active == 'resources') { ?> class="active"<?php } ?>><a href="resources.php">Resources</a></li>
