@@ -10,7 +10,7 @@ include('header.php');
 //   events*
 //   news*
 //   resources*
-print_header('exresource');
+print_header('resources_single');
 ?>
 
 	<div class="row">

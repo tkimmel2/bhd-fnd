@@ -21,8 +21,8 @@ print_header('resources');
 				<div class="twelve columns">
 					<div>
 						<div class="three columns">
-					    	<a href="resource_page.php"><div class="panel">
-						    	<h5>Resource 1 Box</h5>
+					    	<div class="panel">
+						    	<h5><a href="resource_page.php">Resource 1 Box</a></h5>
 						    <p>Nulla libero metus, pulvinar et hendrerit id, pharetra in eros. Integer interdum tortor sit amet odio mollis volutpat. Nullam vitae lorem orci, vel tempus libero. Mauris quis aliquam lacus.</p>
 						    </div></a>
 						</div>
