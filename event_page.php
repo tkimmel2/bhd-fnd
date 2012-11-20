@@ -34,19 +34,23 @@ print_header('Event_1');
 					    </div>
 					  </div>
 					  <textarea placeholder="Message"></textarea>
+					  <a class="small radius button" href="#">Submit</a>
 					</form>
 				</div>
 			</div>
 		</div>
 
 		<div class="four columns">
+
 			<h4>Search Events by Keyword</h4>
 			<input type="text" placeholder="Keyword(s)" />
-			<div class="panel">
-				<h4>More Upcoming Events</h4>
-				<p>Cras luctus, massa quis mollis sollicitudin, tortor nisi tincidunt tortor, id volutpat massa mi ac nibh. Maecenas egestas convallis vehicula. Aliquam erat volutpat. </p>
-			</div>			
-			</div>	
+			<p><a class="small radius button" href="#">Submit</a></p>
+
+		  <div class="panel">
+			<h4>More Upcoming Events</h4>
+			<p>Cras luctus, massa quis mollis sollicitudin, tortor nisi tincidunt tortor, id volutpat massa mi ac nibh. Maecenas egestas convallis vehicula. Aliquam erat volutpat. </p>
+			<p><a href="upcoming_events.php">All Upcoming Events</a></p>
+		  </div>
 		</div>
 	</div>
 

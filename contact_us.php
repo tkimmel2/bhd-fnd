@@ -34,18 +34,24 @@ print_header('contact_us');
 					    </div>
 					  </div>
 					  <textarea placeholder="Message"></textarea>
+					  <p><a class="radius button" href="#">Submit</a></p>
 					</form>
 				</div>
 			</div>
 		</div>
 
 		<div class="four columns">
-			<h4>Sign up for our Newsletter</h4>
+			<h4>Newsletter</h4>
+			<p>Sign up for our newsletter below.</p>
+			<input type="text" placeholder="Your Name" />
 			<input type="text" placeholder="Your Email" />
+			<p><a class="small radius button" href="#">Submit</a></p>
+
 			<div class="panel">
 				<h4>Become a Member</h4>
-				<p>Interested in becoming a member?  Click here to find out about our organization's membership program</p>
-			</div>			
+				<p>Cras luctus, massa quis mollis sollicitudin, tortor nisi tincidunt tortor, id volutpat massa mi ac nibh. Maecenas egestas convallis vehicula. Aliquam erat volutpat.</p>
+				<p><a class="small radius button" href="member_signup.php">Register Now</a></p>
+			</div>
 
 			<div class="panel">
 				<h4>Featured Member</h4>

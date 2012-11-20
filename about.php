@@ -36,7 +36,8 @@ print_header('home');
 
 			<div class="panel">
 				<h4>Become a Member</h4>
-				<p>Interested in becoming a member?  Click here to find out about our organization's membership program</p>
+				<p>Cras luctus, massa quis mollis sollicitudin, tortor nisi tincidunt tortor, id volutpat massa mi ac nibh. Maecenas egestas convallis vehicula. Aliquam erat volutpat.</p>
+				<p><a class="small radius button" href="member_signup.php">Register Now</a></p>
 			</div>
 			
 			<div class="panel">
@@ -44,7 +45,7 @@ print_header('home');
 				<p>Sign up for our newsletter below.</p>
 				<input type="text" placeholder="Your Name" />
 				<input type="text" placeholder="Your Email" />
-				<a class="small radius button" href="#">Submit</a>
+				<p><a class="small radius button" href="#">Submit</a></p>
 			</div>
 		<!-- end Right sidebar -->
 		</div>

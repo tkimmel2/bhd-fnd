@@ -44,8 +44,8 @@ function print_header($active = 'home') {
           <a href="news.php">News</a>
           <a href="#" class="flyout-toggle"><span> </span></a>
           <ul class="flyout">
-            <li<?php if($active == 'news1') { ?> class="active"<?php } ?>><a href="#">Featured News 1</a></li>
-            <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Featured News 2</a></li>
+            <li<?php if($active == 'exnews') { ?> class="active"<?php } ?>><a href="news_page.php">Example News Story</a></li>
+            <li<?php if($active == 'news2') { ?> class="active"<?php } ?>><a href="#">Featured News Item</a></li>
           </ul>
         </li>
         <li<?php if(stripos($active, 'resources') !== FALSE) { ?> class="active"<?php } ?>><a href="resources.php">Resources</a></li>

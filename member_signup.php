@@ -55,6 +55,7 @@ print_header('member_signup');
 					  </div>
 					  
 					  <textarea placeholder="Message"></textarea>
+					  <a class="radius button" href="#">Register</a>
 					</form>
 				</div>
 			</div>
@@ -63,6 +64,8 @@ print_header('member_signup');
 		<div class="four columns">
 			<h4>Search Member Organizations</h4>
 			<input type="text" placeholder="Keyword(s)" />
+			<p><a class="small radius button" href="#">Submit</a></p>
+
 			<div class="panel">
 				<h4>Need Help?  Contact Us:</h4>
 				<p>If you have any issues with signing up, please feel free to contact us at 555.555.5555</p>
